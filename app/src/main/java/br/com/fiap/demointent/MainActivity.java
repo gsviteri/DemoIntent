@@ -35,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void abrirCadastrPessoaFisica(View view){
+        Intent i = new Intent("br.com.fiap.demointentcadastro.action.CADASTRO");
+        i.addCategory("br.com.fiap.demointentcadastro.action.PESSOA_FISICA");
+
+        startActivity(i);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
 
