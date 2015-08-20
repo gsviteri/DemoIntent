@@ -27,7 +27,6 @@
         android:layout_marginBottom="50dp"
         />
 
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +34,6 @@
         android:text="Pessoa Física"
         android:textAllCaps="false"
         android:onClick="abrirCadastroPessoaFisica"
-
         />
 
     <Button
@@ -46,4 +44,5 @@
         android:textAllCaps="false"
         android:onClick="abrirCadastroPessoaJuridica"
         />
+
 </LinearLayout>

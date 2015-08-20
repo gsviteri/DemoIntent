@@ -35,9 +35,16 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void abrirCadastrPessoaFisica(View view){
+    public void abrirCadastroPessoaFisica(View view){
         Intent i = new Intent("br.com.fiap.demointentcadastro.action.CADASTRO");
         i.addCategory("br.com.fiap.demointentcadastro.action.PESSOA_FISICA");
+
+        startActivity(i);
+    }
+
+    public void abrirCadastroPessoaJuridica(View view){
+        Intent i = new Intent("br.com.fiap.demointentcadastro.action.CADASTRO");
+        i.addCategory("br.com.fiap.demointentcadastro.action.PESSOA_JURIDICA");
 
         startActivity(i);
     }
